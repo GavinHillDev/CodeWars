@@ -1,0 +1,8 @@
+Description-
+Remove Spaces From The String
+
+
+Solution-
+function noSpace(x){
+ return x.replace(/\s+/g, '')
+}
