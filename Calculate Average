@@ -7,8 +7,13 @@ Note: Empty arrays should return 0.
 
 Solution-
 
+function find_average(array) {
+  // your code here
  let initialValue = 0
+ if ( array.length > 0){
   return array.reduce(
   (previousValue, currentValue) => previousValue + currentValue,
-  initialValue) / array.length;
- 
+  initialValue) / array.length;}
+    else {}
+    return 0
+}
