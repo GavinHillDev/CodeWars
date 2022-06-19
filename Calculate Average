@@ -14,6 +14,6 @@ function find_average(array) {
   return array.reduce(
   (previousValue, currentValue) => previousValue + currentValue,
   initialValue) / array.length;}
-    else {}
-    return 0
+    else {
+    return 0}
 }
