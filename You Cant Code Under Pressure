@@ -1,0 +1,10 @@
+Description-
+Double the integer as fast as you can
+
+
+
+Solution-
+function doubleInteger(i) {
+  
+  return i * 2;
+}
