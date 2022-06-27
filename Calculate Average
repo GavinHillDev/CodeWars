@@ -8,7 +8,6 @@ Note: Empty arrays should return 0.
 Solution-
 
 function find_average(array) {
-  // your code here
  let initialValue = 0
  if ( array.length > 0){
   return array.reduce(
