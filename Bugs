@@ -1,0 +1,7 @@
+Desc- 
+Fix the issue
+
+Solution-
+const isReallyNaN = (val) => {
+ return (Number.isNaN(val) ? true :  false)
+};
