@@ -1,0 +1,12 @@
+Description-
+An arrow is formed in a rectangle with sides a and b by joining the bottom corners to the midpoint of the top edge and the centre of the rectangle.
+
+
+
+
+Solution-
+
+
+function arrowArea(a,b) {
+  return  (1/2) * (b / 2) * a
+}
