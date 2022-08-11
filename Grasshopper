@@ -1,0 +1,9 @@
+Desc- 
+Change name if value is different
+
+
+
+Solution-
+function greet (name, owner) {
+  return name == owner ? 'Hello boss' : 'Hello guest'
+}
