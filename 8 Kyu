@@ -1,0 +1,7 @@
+Time to Milliseconds 
+
+
+function past(h, m, s){
+  m = h * 60 + m 
+  return m * 60000 + s * 1000
+}
