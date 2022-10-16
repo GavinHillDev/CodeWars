@@ -4,7 +4,7 @@ Modify the spacify function so that it returns the given string with spaces inse
 
 
 
-Solution-
+Solution
 function spacify(str) {
   return Array.from(str).join(' ')
 }
